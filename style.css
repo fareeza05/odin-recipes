@@ -1,0 +1,18 @@
+.title {
+    font-family: 'Gill Sans';
+    color: black;
+}
+
+.img {
+    height: 2px
+}
+
+.caption {
+    font-family: sans-serif;
+    font-style: italic;
+
+}
+
+.ingredients .instructions {
+    font-family: sans-serif;
+}
