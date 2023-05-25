@@ -3,12 +3,19 @@
 }
 
 .title {
-  margin-top: 50px;
-  text-align: center;
+    margin-top: 50px;
+    text-align: center;
     font-family: 'Gill Sans';
     color: #740133;
     
       
+}
+
+.subtitles {
+  font-family: 'Gill Sans';
+  text-align: center;
+  font-style: bold;
+  font-size: 20px;
 }
 
 img {
@@ -22,12 +29,28 @@ img {
 .caption {
     font-family: sans-serif;
     font-style: italic;
+    text-align: center;
+  margin-bottom: 50px;
 
 }
 
-.ingredients .instructions {
+.ingredients, .instructions {
     font-family: sans-serif;
+  text-align: center;
+  
+ 
     
+}
+
+.ingredients {
+  list-style-type: none;
+  
+}
+
+.instructions {
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 50px;
 }
 
 .recipes {
@@ -50,4 +73,10 @@ a:link {
 a:hover {
   text-decoration: underline;
   color: #740133
+}
+
+.food {
+  width:200px;
+  height: auto;
+  border: 2px solid
 }
