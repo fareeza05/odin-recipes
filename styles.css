@@ -1,10 +1,22 @@
-.title {
-    font-family: 'Gill Sans';
-    color: black;
+* {
+    background-color: #ceb3d5; 
 }
 
-.img {
-    height: 2px
+.title {
+  margin-top: 50px;
+  text-align: center;
+    font-family: 'Gill Sans';
+    color: #740133;
+    
+      
+}
+
+img {
+    height: auto;
+    width: 200px;
+    display:block;
+    margin-left:auto;
+  margin-right: auto;
 }
 
 .caption {
@@ -15,4 +27,27 @@
 
 .ingredients .instructions {
     font-family: sans-serif;
+    
+}
+
+.recipes {
+  border: 2px solid #740133;
+  margin-top: 50px;
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-bottom: 200px;
+  text-align: center;
+  padding: 50px 0;
+  list-style-type: none;
+  
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #740133
 }
